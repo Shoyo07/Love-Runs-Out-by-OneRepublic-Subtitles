@@ -1,31 +1,38 @@
  <!DOCTYPE html>
  <head>
  <title>Love Runs Out (by OneRepublic) Subtitles</title>
- <h1 align="Center"><b><span class="Hymn">"Love</span> <span class="Forever">Runs</span> <span  class="Always">Out"</span> <span class="Viva">by</span> <span class="One">OneRepublic</span></b></h1>
- <style>
- h1{font-family: Ink Free;text-decoration:wavy underline;text-decoration-color:Orange}
- .Hymn{color:Hotpink}
- .Forever{color:Crimson}
- .Always{color:Yellow}
- .Viva{color:Blueviolet}
- .One{color:Cornsilk}
- .in{color:Darkturquoise; font-family: Harlow Solid;
- font-size: 30px;}
- body{background-attachment:fixed}
- </style>
+ <link rel="Stylesheet" href="Love Runs Out (Styling).css">
  </head>
- <body background="F:\HTML Tutorial\Love Runs Out (I.T. Project)\OneRepublic.jpg">
- <div id="audio-container">
+ <body background="Only One.png">
  <center>
+ <div id="audio-container"> <!-- This section creates a container for an audio player. The audio player lets you listen to a song. -->
  <audio id="audio-player" controls>
- <source src="F:\HTML Tutorial\Love Runs Out (I.T. Project)\OneRepublic - Love Runs Out.mp3" type="audio/mp3">
- </div>
+ <source src="OneRepublic - Love Runs Out.mp3" type="audio/mp3">
  </audio>
+ </div>
  </center>
- <div id="subtitles-container"></div>
+ <div id="head-container" style="display: none">
+ <hr color="Black">
+ <h1 align="Center"><b></b> <span class="Hymn">"♪ Love</span>  <span class="Forever">Runs</span> <span  class="Always">Out ♪"</span> <span   class="Viva">by</span> <span class="One">OneRepublic</span> </h1> <!-- This line is like a title at the top of a special page. The words are dressed up in fancy colors and styles to look nice. (Basically the <span> is for giving specific color(s) to one specific element) -->
+ <h2 align="Center"><b> <span class="Lyrics">• Lyrics •</span></b></h2>
+ </div>
+ <div id="subtitles-container"></div> <!-- This empty container is meant for holding subtitles, like words that show what's being said in the song. -->
  <center>
- <ol class="in" style="list-style-type: none" id="subtitles-list"></ol>
+ <ol class="in" style="list-style-type: none" id="subtitles-list"></ol> <!-- This part makes a special list for the subtitles, but it doesn't have any bullets. It's like a list without dots or numbers. -->
+ <div id="links-container" style="display: none"> <!-- This container is used for holding links that take you to different places. 'display: none' means you can't see tle line on the link which is always there, but it's still there! -->
+ <hr color="Crimson">  <!-- There's a red line to separate the different sections, like drawing a line on paper. -->
+ <h3 align="Center"><b>• Get to Know OneRepublic•</b></h2>  <!-- There are links to learn about OneRepublic, and each link is styled differently. -->
+ <a class="Clocks" href="https://en.wikipedia.org/wiki/OneRepublic">• About "OneRepublic"</a><br><br>
+ <a class="Republic" href="https://www.onerepublic.com">• OneRepublic's Official Website</a><br><br>
+ <a class="Politik" href="https://open.spotify.com/artist/5Pwc4xIPtQLFEnJriah9YJ">• OneRepublic's <span class="OneRepublic">Spotify</span> Page</a>
+ <hr color="Azure"> <!-- There's a line to separate the different sections but White this time. -->
+ <h4 align="Center"><b>• Connect with OneRepublic •</b></h3> <!-- More links, this time for connecting with OneRepublic on social media. Each link is styled uniquely. -->
+ <a class="Sky" href="https://www.instagram.com/onerepublic/">• OneRepublic's <span class="Insta">Instagram</span> Page</a><br><br> <!--The CSS style for the word "Instagram" creates a unique appearance by applying a colorful gradient background that shines through the text. -->
+ <a class="Stars" href="https://www.facebook.com/OneRepublic">• OneRepublic's  <span class="Face">Facebook</span> Page</a><br><br>
+ <a class="Universe" href="https://twitter.com/OneRepublic">• OneRepublic's <span class="Tweet">Twitter</span> Page</a><br><br>
+ <a class="Mathematics" href="https://www.tiktok.com/@onerepublic?lang=en">• OneRepublic's <span class="Sleep">TikTok</span> Page</a>
+ </div>
  </center>
- <script src="Love Runs Out (By OneRepublic).js"></script>
+ <script src="Love Runs Out (By OneRepublic).js"></script> <!-- The JavaScript file which contols the logic, lyrics of the song, their timing and animations-->
  </body>
  </html>
